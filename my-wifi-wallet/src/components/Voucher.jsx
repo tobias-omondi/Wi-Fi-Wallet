@@ -3,8 +3,8 @@ import React from 'react'
 const Voucher = () => {
   return (
     <>
-    <div className='text-center mt-10 ml-5'>
-    <div className='bg-custom-transparent-gradient p-5 text-white'>
+    <div className='text-center mt-10 w-full'>
+    <div className='bg-custom-transparent-gradient mb-10 p-5 shadow-lg w-2/3 mx-auto text-center flex flex-col items-center justify-center text-white'>
      <p>Enter M-pesa code below from the payment you made <br/> (e.g : QAWR95MFHQQQ)</p> 
      <form>
         <input type='text' placeholder='Enter M-pesa Code' required />
@@ -12,7 +12,7 @@ const Voucher = () => {
      </form>
     </div>
 
-    <div className='bg-custom-transparent-gradient p-5 text-white mt-10'>
+    <div className='bg-custom-transparent-gradient mb-10 p-5 shadow-lg w-2/3 mx-auto text-center flex flex-col items-center justify-center text-white'>
         <h3>Voucher Recharge</h3>
     <p>"(Call Admin for Voucher recharge incase your payment is not successful)"</p> 
      <form>

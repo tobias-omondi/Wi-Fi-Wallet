@@ -3,12 +3,12 @@ import React from 'react';
 const Homepage = () => {
   return (
     <div className='mt-10 w-full ml-5'>
-      <div className='bg-custom-gradient mb-10 p-5 shadow-lg w-90 mx-auto text-center'>
+      <div className='bg-custom-gradient mb-10 p-5 shadow-lg w-80 mx-auto text-center'>
         <h1 className="font-medium text-2xl">
           EMBAONE WIFI LOGIN
         </h1>
       </div>
-      <div className=' flex flex-col items-center justify-center bg-custom-transparent-gradient text-yellow-50 shadow-xl p-5'>
+      <div className='bg-custom-transparent-gradient mb-10 p-5 shadow-lg w-2/3 mx-auto text-center flex flex-col items-center justify-center text-white'>
         <h2 className='underline p-5 text-center text-2xl'>HOW TO PURCHASE</h2>
         <div className='text-start text-lg '>
         <p className='p-1'>1. Tap on Your Preferred Package.</p> 
