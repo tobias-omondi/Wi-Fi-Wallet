@@ -18,7 +18,7 @@ const Login = () => {
             type='text'
             placeholder='User Name:'
             required
-            className='w-full p-2 rounded bg-gray-800 text-white'
+            className='w-50 p-2 rounded bg-gray-800 text-white'
           />
         </div>
 
@@ -28,12 +28,12 @@ const Login = () => {
             type={showPassword ? 'text' : 'password'}
             placeholder='Password'
             required
-            className='w-full p-2 rounded bg-gray-800 text-white'
+            className='w-50 p-2 rounded bg-gray-800 text-white'
           />
           <button
             type='button'
             onClick={togglePasswordVisibility}
-            className='absolute right-2 top-1/2 transform -translate-y-1/2'
+            className='absolute right-10 top-1/2 transform -translate-y-1/2'
           >
             {showPassword ? <Eye size={20} /> : <EyeClosed size={20} />}
           </button>
@@ -41,7 +41,7 @@ const Login = () => {
 
         <button
           type='submit'
-          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded'
         >
           Login
         </button>
