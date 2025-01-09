@@ -17,6 +17,7 @@ const Login = () => {
         <div>
         <input type='text' placeholder='User Name:' required />
         </div>
+
         {/* password  with toggle*/}
         <div className='relative'>
         <input type={showPassowrd ? 'text' : 'password'} placeholder='Password' required />
