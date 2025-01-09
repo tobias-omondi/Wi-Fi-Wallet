@@ -4,7 +4,7 @@ const Voucher = () => {
   return (
     <>
       <div className='text-center mt-10 w-full'>
-        <div className='bg-custom-transparent-gradient mb-10 p-5 shadow-lg w-full mx-auto text-center flex flex-col items-center justify-center text-white sm:w-3/5'>
+        <div className='bg-custom-transparent-gradient mb-10 p-1 shadow-lg w-80 mx-auto text-center flex flex-col items-center justify-center text-white'>
           <p className='mb-4'>
             Enter M-pesa code below from the payment you made <br /> (e.g : QAWR95MFHQQQ)
           </p>
@@ -24,7 +24,7 @@ const Voucher = () => {
           </form>
         </div>
 
-        <div className='bg-custom-transparent-gradient mb-10 p-5 shadow-lg w-full mx-auto text-center flex flex-col items-center justify-center text-white sm:w-3/5'>
+        <div className='bg-custom-transparent-gradient mb-10 p-1 shadow-lg w-80 mx-auto text-center flex flex-col items-center justify-center text-white'>
           <h3 className='text-2xl font-bold mb-4'>Voucher Recharge</h3>
           <p className='mb-4'>(Call Admin for Voucher recharge in case your payment is not successful)</p>
           <form className='flex flex-col items-center w-full'>
