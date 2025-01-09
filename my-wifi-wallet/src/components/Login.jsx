@@ -10,7 +10,7 @@ const Login = () => {
     };
 
   return (
-    <div className='text-center'>
+    <div className='text-center bg-custom-transparent-gradient mt-10 ml-5'>
       <h3>EmbaOne Wifi Login</h3>
       <p>(Enter your Username & Password)</p>
       <form>
