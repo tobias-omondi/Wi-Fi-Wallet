@@ -8,7 +8,7 @@ import background from "../src/assets/city-skyline-with-residential-district.jpg
 function App() {
   return (
     <div 
-      className="min-h-[280vh] w-full bg-cover bg-no-repeat"
+      className="min-h-[240vh] w-screen bg-cover bg-no-repeat:"
       style={{ backgroundImage: `url(${background})` }}
     >
       <div className="absolute inset-0 z-0"></div>

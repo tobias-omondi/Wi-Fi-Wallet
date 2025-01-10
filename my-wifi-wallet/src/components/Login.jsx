@@ -9,7 +9,8 @@ const Login = () => {
   };
 
   return (
-    <div className='bg-custom-transparent-gradient mb-10 p-1 shadow-lg w-80 mx-auto text-center flex flex-col items-center justify-center text-white'>
+    <div className='w-screen'>
+    <div className='bg-custom-transparent-gradient mb-10 p-1 shadow-lg w-9/12 mx-auto text-center flex flex-col items-center justify-center text-white'>
       <h3 className='text-2xl font-bold mb-4'>EmbaOne Wifi Login</h3>
       <p className='mb-4'>(Enter your Username & Password)</p>
       <form className='flex flex-col items-center w-full'>
@@ -33,7 +34,7 @@ const Login = () => {
           <button
             type='button'
             onClick={togglePasswordVisibility}
-            className='absolute right-10 top-1/2 transform -translate-y-1/2'
+            className='absolute right-12 sm:right-1/3 top-1/2 transform -translate-y-1/2'
           >
             {showPassword ? <Eye size={20} /> : <EyeClosed size={20} />}
           </button>
@@ -46,6 +47,7 @@ const Login = () => {
           Login
         </button>
       </form>
+    </div>
     </div>
   );
 };
